@@ -1,0 +1,33 @@
+[Header]
+2014-08-16 15:07:03,979 [1] INFO  Main - Starting: FM5XXX Configurator, Version: 1.1.5.1
+2014-08-16 15:07:04,012 [1] DEBUG FM5XXXConfigurator.MainForm - Creating MainForm.
+2014-08-16 15:07:04,278 [1] INFO  Protocol.SerialPort - Creating GpsSerialPort.
+2014-08-16 15:07:04,296 [1] INFO  Protocol.SerialPort - GpsSerialPort created.
+2014-08-16 15:07:04,871 [1] DEBUG FM5XXXConfigurator.MainForm - MainForm created.
+2014-08-16 15:07:05,136 [1] DEBUG FM5XXXConfigurator.MainForm - Default profile loaded
+2014-08-16 16:01:27,570 [5] DEBUG Protocol.SerialPort - Setting portname COM6
+2014-08-16 16:01:27,591 [5] DEBUG Protocol.SerialPort - -->:.id
+
+2014-08-16 16:01:27,593 [5] DEBUG Protocol.SerialPort - ***** WAITING FOR PING RESPONSE *****
+2014-08-16 16:01:27,716 [5] DEBUG Protocol.SerialPort - ***** TryPingResponse() _buffer=ID:000007
+
+2014-08-16 16:01:27,717 [5] DEBUG Protocol.SerialPort - ***** TryPingResponse() ping=True, processedTime.TotalMilliseconds=124 *****
+2014-08-16 16:01:27,718 [5] INFO  Protocol.SerialPort - Valid response from COM6
+2014-08-16 16:01:27,719 [5] DEBUG Protocol.SerialPort - -->::CFG_Connect:
+
+2014-08-16 16:01:29,538 [5] FATAL Main - Cannot access a disposed object.
+Object name: 'MainForm'.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'MainForm'.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at FM5XXXConfigurator.MainForm.SetPinState(PinState pinState, String simPinState) in C:\WorkSpace\GPS\Branches\FM5XXX Configurator\1.1.5.xx\FM5XXXConfigurator\MainForm.cs:line 940
+   at FM5XXXConfigurator.MainForm.MainForm_ConnectionStateChanged(Object sender, EventArgs e) in C:\WorkSpace\GPS\Branches\FM5XXX Configurator\1.1.5.xx\FM5XXXConfigurator\MainForm.cs:line 304
+   at FM5XXXConfigurator.MainForm.OnConnectionStateChanged() in C:\WorkSpace\GPS\Branches\FM5XXX Configurator\1.1.5.xx\FM5XXXConfigurator\MainForm.cs:line 648
+   at FM5XXXConfigurator.MainForm._port_DeviceSearchEnded(Object sender, OnlyDeviceFoundEventArgs e) in C:\WorkSpace\GPS\Branches\FM5XXX Configurator\1.1.5.xx\FM5XXXConfigurator\MainForm.cs:line 1927
+   at FM5XXXConfigurator.Protocol.GpsSerialPort.OnDeviceSearchEnd(Boolean found, String portName, FM5XXXFoundEventArgs e) in C:\WorkSpace\GPS\Branches\FM5XXX Configurator\1.1.5.xx\FM5XXXConfigurator.Protocol\GpsSerialPort.cs:line 2627
+   at FM5XXXConfigurator.Protocol.GpsSerialPort.<>c__DisplayClass1f.<ConnectToDevice>b__1e(Object state) in C:\WorkSpace\GPS\Branches\FM5XXX Configurator\1.1.5.xx\FM5XXXConfigurator.Protocol\GpsSerialPort.cs:line 1502
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallbackInternal(_ThreadPoolWaitCallback tpWaitCallBack)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback(Object state)
+[Footer]

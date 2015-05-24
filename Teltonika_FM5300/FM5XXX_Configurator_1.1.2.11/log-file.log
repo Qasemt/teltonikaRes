@@ -1,0 +1,18 @@
+[Header]
+2014-08-18 11:09:20,137 [1] INFO  Main - Starting: FM5XXX Configurator, Version: 1.1.2.11
+2014-08-18 11:09:20,259 [1] DEBUG FM5XXXConfigurator.MainForm - Creating MainForm.
+2014-08-18 11:09:20,511 [1] INFO  Protocol.SerialPort - Creating GpsSerialPort.
+2014-08-18 11:09:20,528 [1] INFO  Protocol.SerialPort - GpsSerialPort created.
+2014-08-18 11:09:21,083 [1] DEBUG FM5XXXConfigurator.MainForm - MainForm created.
+2014-08-18 11:09:21,379 [1] DEBUG FM5XXXConfigurator.MainForm - Default profile loaded
+2014-08-18 11:09:27,697 [5] DEBUG Protocol.SerialPort - Setting portname COM6
+2014-08-18 11:09:27,717 [5] DEBUG Protocol.SerialPort - -->:.id
+
+2014-08-18 11:09:27,718 [5] DEBUG Protocol.SerialPort - ***** WAITING FOR PING RESPONSE *****
+2014-08-18 11:09:27,840 [5] DEBUG Protocol.SerialPort - ***** TryPingResponse() _buffer=ID:000007
+
+2014-08-18 11:09:27,840 [5] DEBUG Protocol.SerialPort - ***** TryPingResponse() ping=True, processedTime.TotalMilliseconds=122.0122 *****
+2014-08-18 11:09:27,840 [5] INFO  Protocol.SerialPort - Valid response from COM6
+2014-08-18 11:09:27,841 [5] DEBUG Protocol.SerialPort - -->::CFG_Connect:
+
+[Footer]

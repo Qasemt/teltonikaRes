@@ -1,0 +1,45 @@
+﻿-- 1.0.0.1 2009.03.18
+	Mantas
+Enabled use for FM22 configurators.
+
+-- 1.0.0.2 2009.04.28
+	Mantas
+Waiting time for firmware version added.
+
+-- 1.0.0.3 2009.05.26
+	Ernestas
+FW file name structure changed: <name>.e.<ext>
+
+-- 1.0.0.4 2009.06.05
+	Vadim
+Closing port after every command
+
+-- 1.0.0.5 2010.01.15
+	Valerij
+Added option to update device then both imei list and device imei are empty
+
+-- 1.1.0.0 2010.02.24
+	Valerij
+Redesign to support multidevices.
+AT1k flashing added.
+
+-- 1.1.0.1 2012.09.18
+	Laurynas
+Integrated Teltonika.DecryptFirmware library with FirmwareUpdater for firmware decryption.
+
+
+-- 1.1.0.2 2012.09.18
+	Laurynas
+Moved MainForm.getValidImeiList to Firmware.GetValidImeiList
+Moved MainForm.getDecodedData to Firmware.GetFirmwareData
+Moved MainForm.getValidFwareList to Firmware.GetValidFirmwareList
+
+-- 1.1.0.8 2012.10.19
+	Julius
+Added 200 ms delay before disconnecting port after .run_uart_boot_mode.
+Fixed "zero packet with header" timeout for FM1100M devices, 10sec -> 20sec.
+Fixed imei and fw lists checking.
+
+-- 1.1.0.9 2012.11.19
+	Julius
+Bugfix #5333 (connecting to wrong port);
