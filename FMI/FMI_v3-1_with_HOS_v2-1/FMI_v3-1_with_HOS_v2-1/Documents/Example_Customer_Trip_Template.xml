@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="custom_forms_preview/preview.xsl"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="custom_forms.xsd" id="2" position="1" version="1">
+    <title>Customer Trip Form</title>
+    <item id="1" required="true">
+        <title>Amount Charged ($)</title>
+        <default>(empty)</default>
+        <keyboard-type max-text-len="100">
+            <placeholder-text>&lt;Enter dollar amount&gt;</placeholder-text>
+        </keyboard-type>
+    </item>
+    <item id="2" required="true">
+        <title>Number of passengers</title>
+        <default>(empty)</default>
+        <int-numpad-type max-int-len="2" min-int-val="1" max-int-val="10">
+            <placeholder-text>&lt;Enter number of passengers&gt;</placeholder-text>
+        </int-numpad-type>
+    </item>
+    <item id="3" required="false">
+        <title>Toll Fee ($)</title>
+        <default>(empty)</default>
+        <keyboard-type max-text-len="100">
+            <placeholder-text>&lt;Enter toll fee&gt;</placeholder-text>
+        </keyboard-type>
+    </item>
+    <item id="4" required="false">
+        <title>Comments</title>
+        <default>(empty)</default>
+        <keyboard-type max-text-len="100">
+            <placeholder-text>&lt;Enter additional information&gt;</placeholder-text>
+        </keyboard-type>
+    </item>
+    <item id="5" required="true">
+        <title>Taxi Destination</title>
+        <default>(empty)</default>
+        <stops-list-type show-list="true"></stops-list-type>
+    </item>
+</form>

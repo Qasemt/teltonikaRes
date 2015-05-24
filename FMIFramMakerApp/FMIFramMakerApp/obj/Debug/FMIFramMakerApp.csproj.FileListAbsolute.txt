@@ -1,0 +1,9 @@
+C:\Users\taaheri\Desktop\FMIFramMakerApp\FMIFramMakerApp\bin\Debug\FMIFramMakerApp.exe.config
+C:\Users\taaheri\Desktop\FMIFramMakerApp\FMIFramMakerApp\bin\Debug\FMIFramMakerApp.exe
+C:\Users\taaheri\Desktop\FMIFramMakerApp\FMIFramMakerApp\bin\Debug\FMIFramMakerApp.pdb
+C:\Users\taaheri\Desktop\FMIFramMakerApp\FMIFramMakerApp\obj\Debug\FMIFramMakerApp.csprojResolveAssemblyReference.cache
+C:\Users\taaheri\Desktop\FMIFramMakerApp\FMIFramMakerApp\obj\Debug\FMIFramMakerApp.Form1.resources
+C:\Users\taaheri\Desktop\FMIFramMakerApp\FMIFramMakerApp\obj\Debug\FMIFramMakerApp.Properties.Resources.resources
+C:\Users\taaheri\Desktop\FMIFramMakerApp\FMIFramMakerApp\obj\Debug\FMIFramMakerApp.csproj.GenerateResource.Cache
+C:\Users\taaheri\Desktop\FMIFramMakerApp\FMIFramMakerApp\obj\Debug\FMIFramMakerApp.exe
+C:\Users\taaheri\Desktop\FMIFramMakerApp\FMIFramMakerApp\obj\Debug\FMIFramMakerApp.pdb

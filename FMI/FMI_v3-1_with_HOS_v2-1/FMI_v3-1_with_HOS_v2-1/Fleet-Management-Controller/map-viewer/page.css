@@ -1,0 +1,53 @@
+#map_canvas {
+    position: absolute;
+    top: 2em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#map_canvas img { max-width: none; }
+.modal-footer i.busy, .form-actions i.busy, .sub-form i.busy {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-bottom: -4px;
+    margin-right: 0.5em;
+    visibility: hidden;
+    background-image: url('images/loading.gif');
+}
+.semi-modal {
+    position: fixed;
+    top: 200px;
+    left: -30px;
+    min-height: 150px;
+    z-index: 11050;
+    margin-left: 20px;
+    background-color: rgba(255,255,255,0.85);
+}
+.semi-modal .modal-footer {
+    width: 285px;
+}
+.semi-modal {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: white;
+}
+/*
+ * bing theme starts at z-index 3000, which makes them show on top of bootstrap modals at their default z-index
+ */
+.modal {
+    z-index: 11050;
+}
+.modal-backdrop {
+    z-index: 11040;
+}
+.dropdown-menu {
+    z-index: 11000;
+}

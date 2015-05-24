@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Application\Utility">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Application\Serial Communication">
+      <UniqueIdentifier>{9406313e-8037-418f-991c-08b08a6c1fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Serial Communication\Abstract Base Classes">
+      <UniqueIdentifier>{4fd79798-ea27-4a4a-83c3-1909514239bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Dialogs">
+      <UniqueIdentifier>{fb60b1e8-4f31-4a5c-a73d-6f5c0fbb0d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Dialogs\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Application\Database">
+      <UniqueIdentifier>{daa0e458-65b9-42fc-a4e9-560628dd127c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{fa28412a-acab-4ed8-828c-59b9cb701506}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AobrdEventLogConverter.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CsvWriter.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CWebBrowser2.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndEventListener.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="EventListener.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStream.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="FmiLogParser.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="LogParser.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerListener.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="utl_crc.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLTransformer.cpp">
+      <Filter>Application\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="fmi_CustomForms.cpp">
+      <Filter>Application\Serial Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="FmiApplicationLayer.cpp">
+      <Filter>Application\Serial Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="GarminLinkLayer.cpp">
+      <Filter>Application\Serial Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="GarminPacket.cpp">
+      <Filter>Application\Serial Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="GarminTransportLayer.cpp">
+      <Filter>Application\Serial Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.cpp">
+      <Filter>Application\Serial Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationLayer.cpp">
+      <Filter>Application\Serial Communication\Abstract Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkLayer.cpp">
+      <Filter>Application\Serial Communication\Abstract Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Application\Serial Communication\Abstract Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalLayer.cpp">
+      <Filter>Application\Serial Communication\Abstract Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="TransportLayer.cpp">
+      <Filter>Application\Serial Communication\Abstract Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CAboutDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CAobrdDriversDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CAobrdDriverShipmentsDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CAobrdOdometerDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CAutoArrivalDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CCannedTxtMsgDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CChangeBaudRateDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CColoredListBox.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommErrorDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CCustomFormsDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeleteDataDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CDriverIdAndStatusDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CDriverLoginDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CFeatureDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileTransferDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileTransferProgressDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CFmiApplication.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CFmiPcAppDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CGpiQueryDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CHosSettingDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CIftaDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogViewerDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CManageCannedResponseDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CMapViewerDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CMsgThrottlingDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CPingStatusDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CSafeModeDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CSelectCannedResponseDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CSelectCommPortDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CSendAlertDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CSendSensorDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpeedLimitAlertsDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CStaticLink.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CStopListDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CStopNewDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CTxtMsgAckDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CTxtMsgDeleteRequestDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CTxtMsgFromClient.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CTxtMsgNewDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CTxtMsgStatusDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CTxtMsgStatusRequestDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CUITextChangeDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="CWaypointDlg.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Application\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="AobrdDriverItem.cpp">
+      <Filter>Application\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="AobrdShipment.cpp">
+      <Filter>Application\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientListItem.cpp">
+      <Filter>Application\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverLoginItem.cpp">
+      <Filter>Application\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="InboxListItem.cpp">
+      <Filter>Application\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageId.cpp">
+      <Filter>Application\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="StopListItem.cpp">
+      <Filter>Application\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="WaypointListItem.cpp">
+      <Filter>Application\Database</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CsvWriter.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CWebBrowser2.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndEventListener.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="EventId.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListener.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStream.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="FmiLogParser.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="LogParser.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="pack_begin.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="pack_end.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerListener.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="util_macros.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utl_crc.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLTransformer.h">
+      <Filter>Application\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="fmi.h">
+      <Filter>Application\Serial Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="fmi_CustomForms.h">
+      <Filter>Application\Serial Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="FmiApplicationLayer.h">
+      <Filter>Application\Serial Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="garmin_types.h">
+      <Filter>Application\Serial Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="GarminLinkLayer.h">
+      <Filter>Application\Serial Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="GarminPacket.h">
+      <Filter>Application\Serial Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="GarminTransportLayer.h">
+      <Filter>Application\Serial Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort.h">
+      <Filter>Application\Serial Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationLayer.h">
+      <Filter>Application\Serial Communication\Abstract Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkLayer.h">
+      <Filter>Application\Serial Communication\Abstract Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Application\Serial Communication\Abstract Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalLayer.h">
+      <Filter>Application\Serial Communication\Abstract Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="TransportLayer.h">
+      <Filter>Application\Serial Communication\Abstract Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CChangeBaudRateDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CCustomFormsDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CDriverLoginDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CFeatureDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CHosSettingDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CIftaDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapViewerDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CSafeModeDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CSendAlertDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CSendSensorDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CWaypointDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Application\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Application\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientListItem.h">
+      <Filter>Application\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverLoginItem.h">
+      <Filter>Application\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="FileBackedMap.h">
+      <Filter>Application\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="InboxListItem.h">
+      <Filter>Application\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageId.h">
+      <Filter>Application\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="StopListItem.h">
+      <Filter>Application\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="WaypointListItem.h">
+      <Filter>Application\Database</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\fmi_pc_app.ico">
+      <Filter>Application\Dialogs\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fmi_pc_app.rc">
+      <Filter>Application\Dialogs\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\fmi_pc_app.rc2">
+      <Filter>Application\Dialogs\Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ChangeLog.txt">
+      <Filter>Documentation</Filter>
+    </Text>
+    <Text Include="ReadMe.txt">
+      <Filter>Documentation</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="AobrdEventLogConverter.h">
+      <Filter>Application\Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CAboutDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CAobrdDriversDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CAobrdDriverShipmentsDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CAobrdOdometerDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CAutoArrivalDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CCannedTxtMsgDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CColoredListBox.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CCommErrorDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CDeleteDataDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CDriverIdAndStatusDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CFileTransferDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CFileTransferProgressDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CFmiApplication.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CFmiPcAppDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CGpiQueryDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CLogViewerDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CManageCannedResponseDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMsgThrottlingDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CPingStatusDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSelectCannedResponseDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSelectCommPortDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSpeedLimitAlertsDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CStaticLink.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CStopListDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CStopNewDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CTxtMsgAckDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CTxtMsgDeleteRequestDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CTxtMsgFromClient.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CTxtMsgNewDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CTxtMsgStatusDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CTxtMsgStatusRequestDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CUITextChangeDlg.h">
+      <Filter>Application\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AobrdDriverItem.h">
+      <Filter>Application\Database</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AobrdShipment.h">
+      <Filter>Application\Database</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

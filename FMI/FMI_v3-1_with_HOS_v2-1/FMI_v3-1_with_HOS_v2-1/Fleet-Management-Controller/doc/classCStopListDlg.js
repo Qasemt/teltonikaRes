@@ -1,0 +1,25 @@
+var classCStopListDlg =
+[
+    [ "CStopListDlg", "classCStopListDlg.html#a6b9735e3ae146df6cf735d6734d2c38e", null ],
+    [ "~CStopListDlg", "classCStopListDlg.html#a1d553df5aaec3816c75c03efe023e728", null ],
+    [ "DoDataExchange", "classCStopListDlg.html#ad448106e08f1fe3d1c3d8f62700e8c3c", null ],
+    [ "OnBnClickedNewStop", "classCStopListDlg.html#a1f47c979fae53cdf3049ddcc762f226c", null ],
+    [ "OnBnClickedOk", "classCStopListDlg.html#a0bd0a54d34f7b848320433398b464ba9", null ],
+    [ "OnBnClickedSend", "classCStopListDlg.html#a9c593054aed1bf1cbd57c820e5c953a9", null ],
+    [ "OnBnClickedSort", "classCStopListDlg.html#a07fa5212317c2b54f4f37c50e42250d3", null ],
+    [ "OnCancel", "classCStopListDlg.html#a37e259263ab9d310291a60b455925370", null ],
+    [ "OnCbnSelChangeUpdateOption", "classCStopListDlg.html#a69349e11c939ebfbc2a1d803ead0e631", null ],
+    [ "OnEnChangeMoveTo", "classCStopListDlg.html#a4c0133be894d15b47edf136d7b1f1da8", null ],
+    [ "onEvent", "classCStopListDlg.html#a03422b754973e43cff07a1efd8583bcd", null ],
+    [ "OnEventEtaReceived", "classCStopListDlg.html#a7a38afc603f0f940189f0a693fa1c7ce", null ],
+    [ "OnEventStopListChanged", "classCStopListDlg.html#a21ca90983e558463ed7c3aa7c5d79362", null ],
+    [ "OnInitDialog", "classCStopListDlg.html#a7ae2961f9db562ef481b6baf5b4eec3b", null ],
+    [ "PostNcDestroy", "classCStopListDlg.html#a4830d8d3be5a6494b626ced0cd42e1d7", null ],
+    [ "mCom", "classCStopListDlg.html#aff3209f4c12a9303a9bd8f8bc7544ca8", null ],
+    [ "mEta", "classCStopListDlg.html#a77de93573ff779871c67843faa86aa5e", null ],
+    [ "mMoveTo", "classCStopListDlg.html#a7a569d2b2b6f1bf5fbea52f21f856d23", null ],
+    [ "mSelectedStopIndex", "classCStopListDlg.html#a269f53dd3228a6b61b3dadab3b968a93", null ],
+    [ "mSelectedStopStatus", "classCStopListDlg.html#a779f69931ef3e248bac5a657e3cd8745", null ],
+    [ "mSelectedUpdateIndex", "classCStopListDlg.html#a303c2b783455e1224c7edf3a9af11eb5", null ],
+    [ "mStopListBox", "classCStopListDlg.html#ae1deeefad1f14e7192a3f6bf847ebe44", null ]
+];

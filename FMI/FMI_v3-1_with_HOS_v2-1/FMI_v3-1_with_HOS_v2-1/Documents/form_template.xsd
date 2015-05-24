@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<!-- form element -->
+<xsd:element name="form">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="title">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:minLength value="0" />
+                        <xsd:maxLength value="40" />
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:element>
+            <xsd:element ref="item" minOccurs="1" maxOccurs="30" />
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:positiveInteger" use="required" />
+        <xsd:attribute name="position" type="xsd:positiveInteger" use="required" />
+        <xsd:attribute name="version" type="xsd:positiveInteger" use="required" />
+    </xsd:complexType>
+    <xsd:unique name="unique-item-id">
+        <xsd:selector xpath="item" />
+        <xsd:field xpath="@id" />
+    </xsd:unique>
+</xsd:element>
+
+<!-- item element -->
+<xsd:element name="item">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="title">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:minLength value="0" />
+                        <xsd:maxLength value="50" />
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="default">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:minLength value="0" />
+                        <xsd:maxLength value="60" />
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:element>
+            <xsd:choice>
+                <xsd:element ref="keyboard-type" />
+                <xsd:element ref="int-numpad-type" />
+                <xsd:element ref="single-select-type" />
+                <xsd:element ref="multiple-select-type" />
+                <xsd:element ref="date-type" />
+                <xsd:element ref="time-type" />
+                <xsd:element ref="stops-list-type" />
+            </xsd:choice>
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:positiveInteger" use="required" />
+        <xsd:attribute name="required" type="xsd:boolean" use="required" />
+    </xsd:complexType>
+</xsd:element>
+
+<!-- placeholder text - keyboard/int-numpad -->
+<xsd:element name="placeholder-text">
+    <xsd:simpleType>
+        <xsd:restriction base="xsd:string">
+            <xsd:minLength value="0" />
+            <xsd:maxLength value="30" />
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:element>
+
+<!-- item alphanumeric keyboard -->
+<xsd:element name="keyboard-type">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element ref="placeholder-text" minOccurs="0" maxOccurs="1" />
+        </xsd:sequence>
+        <xsd:attribute name="max-text-len">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:positiveInteger">
+                    <xsd:minInclusive value="1" />
+                    <xsd:maxInclusive value="100" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+    </xsd:complexType>
+</xsd:element>
+
+<!-- item integer number pad -->
+<xsd:element name="int-numpad-type">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element ref="placeholder-text" minOccurs="0" maxOccurs="1" />
+        </xsd:sequence>
+        <!-- the max integer length is the number of digits and excludes the minus sign -->
+        <xsd:attribute name="max-int-len">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:positiveInteger">
+                    <xsd:minInclusive value="1" />
+                    <xsd:maxInclusive value="10" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="min-int-val">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:integer">
+                    <xsd:minInclusive value="-2147483648" />
+                    <xsd:maxInclusive value="2147483647" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="max-int-val">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:integer">
+                    <xsd:minInclusive value="-2147483648" />
+                    <xsd:maxInclusive value="2147483647" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+    </xsd:complexType>
+</xsd:element>
+
+<!-- option title element -->
+<xsd:simpleType name="option-title">
+    <xsd:restriction base="xsd:string">
+        <xsd:minLength value="0" />
+        <xsd:maxLength value="40" />
+    </xsd:restriction>
+</xsd:simpleType>
+
+<!-- option element - single/multiple selects-->
+<xsd:element name="option">
+    <xsd:complexType>
+        <xsd:simpleContent>
+            <xsd:extension base="option-title">
+                <xsd:attribute name="id" type="xsd:positiveInteger" use="required" />
+                <xsd:attribute name="selected" type="xsd:boolean" use="required" />
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+</xsd:element>
+
+<!-- item single select elements -->
+<xsd:element name="single-select-type">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element ref="option" minOccurs="1" maxOccurs="30"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:unique name="unique-single-option-id">
+        <xsd:selector xpath="option" />
+        <xsd:field xpath="@id" />
+    </xsd:unique>
+</xsd:element>
+
+<!-- item multiple select elements -->
+<xsd:element name="multiple-select-type">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element ref="option" minOccurs="1" maxOccurs="30"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:unique name="unique-multiple-option-id">
+        <xsd:selector xpath="option" />
+        <xsd:field xpath="@id" />
+    </xsd:unique>
+</xsd:element>
+
+<!-- item date -->
+<xsd:element name="date-type">
+    <xsd:complexType>
+        <xsd:attribute name="use-current" type="xsd:boolean" use="required" />
+        <xsd:attribute name="month">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:positiveInteger">
+                    <xsd:minInclusive value="1" />
+                    <xsd:maxInclusive value="12" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="day">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:positiveInteger">
+                    <xsd:minInclusive value="1" />
+                    <xsd:maxInclusive value="31" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="year">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:positiveInteger">
+                    <xsd:minInclusive value="1" />
+                    <xsd:maxInclusive value="9999" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+    </xsd:complexType>
+</xsd:element>
+
+<!-- item time -->
+<xsd:element name="time-type">
+    <xsd:complexType>
+        <xsd:attribute name="use-current" type="xsd:boolean" use="required" />
+        <xsd:attribute name="hour">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:nonNegativeInteger">
+                    <xsd:minInclusive value="0" />
+                    <xsd:maxInclusive value="23" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="minute">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:nonNegativeInteger">
+                    <xsd:minInclusive value="0" />
+                    <xsd:maxInclusive value="59" />
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+    </xsd:complexType>
+</xsd:element>
+
+<!-- item stops list -->
+<xsd:element name="stops-list-type">
+    <xsd:complexType>
+        <xsd:attribute name="show-list" type="xsd:boolean" />
+    </xsd:complexType>
+</xsd:element>
+
+</xsd:schema>

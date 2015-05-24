@@ -1,0 +1,26 @@
+var classCCannedTxtMsgDlg =
+[
+    [ "CCannedTxtMsgDlg", "classCCannedTxtMsgDlg.html#a61cf955101d5f465f42b2b75f5a5a78b", null ],
+    [ "~CCannedTxtMsgDlg", "classCCannedTxtMsgDlg.html#a542f98001ed2ff186d35d420d58eb825", null ],
+    [ "DoDataExchange", "classCCannedTxtMsgDlg.html#a33e556dde956580a633b6e9913e86b3b", null ],
+    [ "OnBnClickedDelete", "classCCannedTxtMsgDlg.html#a208c92040c5936de2687849a1f96b3b9", null ],
+    [ "OnBnClickedOk", "classCCannedTxtMsgDlg.html#a327fa6fa56478c644bd1ab7284a277ae", null ],
+    [ "OnBnClickedSend", "classCCannedTxtMsgDlg.html#a5bdbd71b3f94cfc40f1cbf7658e31d66", null ],
+    [ "OnCancel", "classCCannedTxtMsgDlg.html#ad521bc06c3690e09acdbb3b57d261010", null ],
+    [ "OnCannedMsgListChanged", "classCCannedTxtMsgDlg.html#a2984d8d8772545ef760aa5605e4eef8f", null ],
+    [ "OnEnChangeEditBoxes", "classCCannedTxtMsgDlg.html#aa96e7a900283d6656431ce15bc0b3b62", null ],
+    [ "OnEnKillfocusMessageEdit", "classCCannedTxtMsgDlg.html#a00c83d3db5b1ebf97280873abd4e1ddb", null ],
+    [ "OnEnSetfocusMessageEdit", "classCCannedTxtMsgDlg.html#a4bdbde78e43debbfc433dd107f0f3075", null ],
+    [ "onEvent", "classCCannedTxtMsgDlg.html#a03422b754973e43cff07a1efd8583bcd", null ],
+    [ "OnInitDialog", "classCCannedTxtMsgDlg.html#a845598f25f4c27613ba6f72958d3b278", null ],
+    [ "OnLbnKillfocusMsgList", "classCCannedTxtMsgDlg.html#a3d0055ee8eecceeb829fe928ff609530", null ],
+    [ "OnLbnSelchangeMsglist", "classCCannedTxtMsgDlg.html#a1e65e749eee65628dc98e11d1eb706b0", null ],
+    [ "OnLbnSetfocusList", "classCCannedTxtMsgDlg.html#a97b77b1dc36d0f526011fcade91df57e", null ],
+    [ "PostNcDestroy", "classCCannedTxtMsgDlg.html#a01160cd43585eab1163e06ee08adba6c", null ],
+    [ "updateListBox", "classCCannedTxtMsgDlg.html#a3083b8e9a503f6f80487ab75f8877bf9", null ],
+    [ "mCannedMessageList", "classCCannedTxtMsgDlg.html#ad89b0c66ab554624fd5107f0cab590c2", null ],
+    [ "mCom", "classCCannedTxtMsgDlg.html#a4f2012eeaf05bb47cf1a2f0ca587ce92", null ],
+    [ "mMessageId", "classCCannedTxtMsgDlg.html#a87967e21f1d6c4b1a781701980007c1a", null ],
+    [ "mMessageText", "classCCannedTxtMsgDlg.html#a88472078f0fe131ff13e8d914a39b124", null ],
+    [ "mSelectedIndex", "classCCannedTxtMsgDlg.html#a33566021baa68f1d2804891e69df8324", null ]
+];

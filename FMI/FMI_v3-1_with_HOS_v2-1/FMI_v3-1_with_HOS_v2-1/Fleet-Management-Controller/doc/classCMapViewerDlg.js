@@ -1,0 +1,28 @@
+var classCMapViewerDlg =
+[
+    [ "IDD", "classCMapViewerDlg.html#a99496805de2ffc88b8b287f1a4268980ab952f7bdf42b02f163d282c89088cf66", null ],
+    [ "CMapViewerDlg", "classCMapViewerDlg.html#a3bf4914bc76aac7cae9da251f45627ed", null ],
+    [ "~CMapViewerDlg", "classCMapViewerDlg.html#a988467ece3de7b2a781c3d690360353f", null ],
+    [ "activateStopOnDevice", "classCMapViewerDlg.html#a51189b4c68a51fd611bb138338cc3d1a", null ],
+    [ "addAvoidanceToCatalog", "classCMapViewerDlg.html#a79ed5c95241e4a1def83acd66fbaac0d", null ],
+    [ "addRouteToCatalog", "classCMapViewerDlg.html#a500aaecfdbeb80f8c908eb2ebd128627", null ],
+    [ "completeStopOnDevice", "classCMapViewerDlg.html#afb36d221c4426d62079cb8a9e304ce6b", null ],
+    [ "deleteAvoidanceFromDevice", "classCMapViewerDlg.html#af703098367d452aa5a460648b11a3fc6", null ],
+    [ "deleteRouteFromDevice", "classCMapViewerDlg.html#a34b361c938919b13c858570235052e45", null ],
+    [ "DoDataExchange", "classCMapViewerDlg.html#af7f491d5bab78a50e9e4c4579e7426f7", null ],
+    [ "moveStopOnDevice", "classCMapViewerDlg.html#a83bb5508320e9e0494b2c915ae68da8b", null ],
+    [ "OnBeforeNavigate2", "classCMapViewerDlg.html#ad6b87a48955a57939b7ab566ed2ced92", null ],
+    [ "onEvent", "classCMapViewerDlg.html#a03422b754973e43cff07a1efd8583bcd", null ],
+    [ "OnInitDialog", "classCMapViewerDlg.html#ad9e6a9e251e52c2b3f9be7ad1528a2a7", null ],
+    [ "OnSize", "classCMapViewerDlg.html#adb81bff5869c62ecbf3d6c63e5ca7aae", null ],
+    [ "refreshCatalog", "classCMapViewerDlg.html#a6ff62a71eecb62ff103bd36aaae27f91", null ],
+    [ "removeAvoidanceFromCatalog", "classCMapViewerDlg.html#a114643cf742676c63a5b74fad76f5a1d", null ],
+    [ "removeItemsFromCatalog", "classCMapViewerDlg.html#a03cfe655bb0c3115c61b21cf3af4be8f", null ],
+    [ "removeRouteFromCatalog", "classCMapViewerDlg.html#af4e5fa54c6d52f8a30db66fc864c1335", null ],
+    [ "sendAvoidanceToDevice", "classCMapViewerDlg.html#ac3e1b6999bb7959045e24ba5a0bdff4b", null ],
+    [ "sendRouteToDevice", "classCMapViewerDlg.html#ae8a9e02e00c5b2c710c7cf9bcc213dde", null ],
+    [ "setAvoidanceEnabled", "classCMapViewerDlg.html#aaa244d75efb5ec06dad6aebe886a8a11", null ],
+    [ "m_addRouteArguments", "classCMapViewerDlg.html#ab2171cd4dd607012d72284e6e6e4bde8", null ],
+    [ "m_browser", "classCMapViewerDlg.html#a72555c33ad0876979f74247c13024798", null ],
+    [ "mCom", "classCMapViewerDlg.html#a1747b993e9d155657a720a3ddd8f9d61", null ]
+];

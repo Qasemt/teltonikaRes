@@ -1,0 +1,169 @@
+﻿Build started 2014-09-13 15:29:57.
+     1>Project "C:\Users\taaheri\Desktop\FMI_v3-1_with_HOS_v2-1\FMI_v3-1_with_HOS_v2-1\Fleet-Management-Controller\src\fmi_pc_app.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\taaheri\Desktop\FMI_v3-1_with_HOS_v2-1\FMI_v3-1_with_HOS_v2-1\Fleet-Management-Controller\src\\deps\zlib-1.2.5-bin" /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D ZLIB_WINAPI /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /RTCc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D "FMI_PROTOCOL_LEVEL=619" AobrdEventLogConverter.cpp CsvWriter.cpp CWebBrowser2.cpp CWndEventListener.cpp Event.cpp EventListener.cpp FileStream.cpp FmiLogParser.cpp Logger.cpp LogParser.cpp TimerListener.cpp TimerManager.cpp util.cpp utl_crc.cpp XMLTransformer.cpp fmi_CustomForms.cpp FmiApplicationLayer.cpp GarminLinkLayer.cpp GarminPacket.cpp GarminTransportLayer.cpp SerialPort.cpp ApplicationLayer.cpp LinkLayer.cpp Packet.cpp PhysicalLayer.cpp TransportLayer.cpp CAboutDlg.cpp CAobrdDriversDlg.cpp CAobrdDriverShipmentsDlg.cpp CAobrdOdometerDlg.cpp CAutoArrivalDlg.cpp CCannedTxtMsgDlg.cpp CChangeBaudRateDlg.cpp CColoredListBox.cpp CCommErrorDlg.cpp CCustomFormsDlg.cpp CDeleteDataDlg.cpp CDriverIdAndStatusDlg.cpp CDriverLoginDlg.cpp CFeatureDlg.cpp CFileTransferDlg.cpp CFileTransferProgressDlg.cpp CFmiApplication.cpp CFmiPcAppDlg.cpp CGpiQueryDlg.cpp CHosSettingDlg.cpp CIftaDlg.cpp CLogViewerDlg.cpp CManageCannedResponseDlg.cpp CMapViewerDlg.cpp CMsgThrottlingDlg.cpp CPingStatusDlg.cpp CSafeModeDlg.cpp CSelectCannedResponseDlg.cpp CSelectCommPortDlg.cpp CSendAlertDlg.cpp CSendSensorDlg.cpp CSpeedLimitAlertsDlg.cpp CStaticLink.cpp CStopListDlg.cpp CStopNewDlg.cpp CTxtMsgAckDlg.cpp CTxtMsgDeleteRequestDlg.cpp CTxtMsgFromClient.cpp CTxtMsgNewDlg.cpp CTxtMsgStatusDlg.cpp CTxtMsgStatusRequestDlg.cpp CUITextChangeDlg.cpp CWaypointDlg.cpp stdafx.cpp AobrdDriverItem.cpp AobrdShipment.cpp ClientListItem.cpp DriverLoginItem.cpp InboxListItem.cpp MessageId.cpp StopListItem.cpp WaypointListItem.cpp
+         WaypointListItem.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         StopListItem.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         MessageId.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         InboxListItem.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         DriverLoginItem.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         ClientListItem.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         AobrdShipment.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         AobrdDriverItem.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         stdafx.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CWaypointDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CUITextChangeDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CTxtMsgStatusRequestDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CTxtMsgStatusDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CTxtMsgNewDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CTxtMsgFromClient.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CTxtMsgDeleteRequestDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CTxtMsgAckDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CStopNewDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CStopListDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CStaticLink.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         Generating Code...
+         Compiling...
+         CSpeedLimitAlertsDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CSendSensorDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CSendAlertDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CSelectCommPortDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CSelectCannedResponseDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CSafeModeDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CPingStatusDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CMsgThrottlingDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CMapViewerDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CManageCannedResponseDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CLogViewerDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CIftaDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CHosSettingDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CGpiQueryDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CFmiPcAppDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CFmiApplication.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CFileTransferProgressDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CFileTransferDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CFeatureDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CDriverLoginDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         Generating Code...
+         Compiling...
+         CDriverIdAndStatusDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CDeleteDataDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CCustomFormsDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CCommErrorDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CColoredListBox.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CChangeBaudRateDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CCannedTxtMsgDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CAutoArrivalDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CAobrdOdometerDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CAobrdDriverShipmentsDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CAobrdDriversDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CAboutDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         TransportLayer.cpp
+         PhysicalLayer.cpp
+         Packet.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         LinkLayer.cpp
+         ApplicationLayer.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         SerialPort.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         GarminTransportLayer.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         GarminPacket.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         Generating Code...
+         Compiling...
+         GarminLinkLayer.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         FmiApplicationLayer.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         fmi_CustomForms.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         XMLTransformer.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         utl_crc.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         util.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         TimerManager.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         TimerListener.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         LogParser.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         Logger.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         FmiLogParser.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         FileStream.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         EventListener.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         Event.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CWndEventListener.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CWebBrowser2.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         CsvWriter.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         AobrdEventLogConverter.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxv_w32.h(40): fatal error C1189: #error :  MFC does not support WINVER less than 0x0501.  Please change the definition of WINVER in your project properties or precompiled header.
+         Generating Code...
+     1>Done Building Project "C:\Users\taaheri\Desktop\FMI_v3-1_with_HOS_v2-1\FMI_v3-1_with_HOS_v2-1\Fleet-Management-Controller\src\fmi_pc_app.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.22

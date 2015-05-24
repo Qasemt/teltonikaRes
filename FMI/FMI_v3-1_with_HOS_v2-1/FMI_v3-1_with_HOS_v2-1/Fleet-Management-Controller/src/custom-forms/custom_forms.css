@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+}
+ul#tableOfContents li {
+    list-style-type: none;
+    border-bottom: 1px solid #CCC;
+}
+ul#tableOfContents li a {
+    text-decoration: none;
+    color: black;
+}
+ul#tableOfContents span.item-value {
+    color: #777;
+}
+form fieldset {
+    display: none;
+}
+form fieldset.editing {
+    display: block;
+}
+ul.select-list {
+    list-style-type: none;
+}
+#submitted-values ul {
+    list-style-type: none;
+    padding-left: 10px;
+    margin: 0;
+}
+#submitted-values label {
+    cursor: none;
+}
+#submitted-values ul.select-list li.selected {
+    font-weight: bold;
+}
+#submitted-values ul.select-list li.unselected {
+    color: #AAA;
+}
+#submitted-values-table ul.select-list.multi {
+    margin: 0;
+}
+#submitted-values-table ul.select-list.multi li {
+    display: inline-block;
+}
+a.mock {
+    cursor: pointer;
+}

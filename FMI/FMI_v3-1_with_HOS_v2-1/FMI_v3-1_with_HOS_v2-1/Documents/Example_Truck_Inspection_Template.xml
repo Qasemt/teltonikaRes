@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="custom_forms_preview/preview.xsl"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="custom_forms.xsd" id="3" position="2" version="1">
+    <title>Truck Inspection Form</title>
+    <item id="1" required="true">
+        <title>Driver Name</title>
+        <default>(empty)</default>
+        <keyboard-type max-text-len="100">
+            <placeholder-text>&lt;Name&gt;</placeholder-text>
+        </keyboard-type>
+    </item>
+    <item id="2" required="true">
+        <title>Tractor No.</title>
+        <default>(empty)</default>
+        <int-numpad-type max-int-len="6" min-int-val="0" max-int-val="2147483647">
+            <placeholder-text>&lt;Enter tractor number&gt;</placeholder-text>
+        </int-numpad-type>
+    </item><item id="3" required="true">
+        <title>Odometer Reading</title>
+        <default>(empty)</default>
+        <int-numpad-type max-int-len="6" min-int-val="0" max-int-val="2147483647">
+            <placeholder-text>&lt;Enter odometer reading&gt;</placeholder-text>
+        </int-numpad-type>
+    </item>
+    <item id="4" required="false">
+        <title>Check List (A-M)-Check defective items</title>
+        <default>(empty)</default>
+        <multiple-select-type>
+            <option id="1" selected="false">Air Compressor</option>
+            <option id="2" selected="false">Air Lines</option>
+            <option id="3" selected="false">Battery</option>
+            <option id="4" selected="false">Brake Accessories</option>
+            <option id="6" selected="false">Brakes</option>
+            <option id="7" selected="false">Carburetor</option>
+            <option id="8" selected="false">Clutch</option>
+            <option id="9" selected="false">Defroster</option>
+            <option id="10" selected="false">Drive Line</option>
+            <option id="11" selected="false">Engine</option>
+            <option id="12" selected="false">Fifth Wheel</option>
+            <option id="13" selected="false">Front Axle</option>
+            <option id="14" selected="false">Fuel Tanks</option>
+            <option id="15" selected="false">Heater</option>
+            <option id="16" selected="false">Horn</option>
+            <option id="17" selected="false">Lights</option>
+            <option id="18" selected="false">Mirrors</option>
+            <option id="19" selected="false">Muffler</option>
+        </multiple-select-type>
+    </item>
+    <item id="5" required="false">
+        <title>Check List (O-Z)-Check defective items</title>
+        <default>(empty)</default>
+        <multiple-select-type>
+            <option id="1" selected="false">Oil Pressure</option>
+            <option id="2" selected="false">Other</option>
+            <option id="3" selected="false">On-Board Recorder</option>
+            <option id="4" selected="false">Radiator</option>
+            <option id="5" selected="false">Rear End</option>
+            <option id="6" selected="false">Reflectors</option>
+            <option id="7" selected="false">Safety Equipment</option>
+            <option id="8" selected="false">Springs</option>
+            <option id="9" selected="false">Starter</option>
+            <option id="10" selected="false">Steering</option>
+            <option id="11" selected="false">Tachograph</option>
+            <option id="12" selected="false">Tires</option>
+            <option id="13" selected="false">Transmission</option>
+            <option id="14" selected="false">Wheels</option>
+            <option id="15" selected="false">Windows</option>
+            <option id="16" selected="false">Windshield Wipers</option>
+        </multiple-select-type>
+    </item>
+    <item id="6" required="false">
+        <title>Trailer Check List-Check defective items</title>
+        <default>(empty)</default>
+        <multiple-select-type>
+            <option id="1" selected="false">Brake Connections</option>
+            <option id="2" selected="false">Brakes</option>
+            <option id="3" selected="false">Coupling Chains</option>
+            <option id="4" selected="false">Doors</option>
+            <option id="5" selected="false">Hitch</option>
+            <option id="6" selected="false">Landing Gear</option>
+            <option id="7" selected="false">Lights-All</option>
+            <option id="8" selected="false">Roof</option>
+            <option id="9" selected="false">Springs</option>
+            <option id="10" selected="false">Tarpaulin</option>
+            <option id="11" selected="false">Wheels</option>
+            <option id="12" selected="false">Other</option>
+        </multiple-select-type>
+    </item>
+    <item id="7" required="true">
+        <title>Vehicle is Satisfactory?</title>
+        <default>(empty)</default>
+        <single-select-type>
+            <option id="1" selected="false">Vehicle is Satisfactory</option>
+            <option id="2" selected="false">Vehicle is Not Satisfactory</option>
+        </single-select-type>
+    </item>
+    <item id="8" required="false">
+        <title>Remarks</title>
+        <default>(empty)</default>
+        <keyboard-type max-text-len="100">
+            <placeholder-text>&lt;Remarks for defective items&gt;</placeholder-text>
+        </keyboard-type>
+    </item>
+</form>

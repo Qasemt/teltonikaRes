@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <BING_MAPS_KEY>_YOUR_BING_MAPS_DEV_OR_PRODUCTION_KEY_HERE_</BING_MAPS_KEY>
+    <!-- these home coordinates are for Garmin Headquarters
+         put your own coordinates here for your convenience -->
+    <homeCoordinates>38.8547305763,-94.7996225953</homeCoordinates>
+</settings>

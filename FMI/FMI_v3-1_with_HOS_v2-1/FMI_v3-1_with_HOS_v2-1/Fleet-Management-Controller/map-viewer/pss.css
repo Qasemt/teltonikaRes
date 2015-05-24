@@ -1,0 +1,45 @@
+.marker-icon  img{
+    width: 24px;
+    height: 24px;
+    background-image: url('iconsprite.png');
+    background-repeat: no-repeat;
+    margin: auto 8px;
+}
+.marker-icon.destination img {
+    background-position: 0 -24px;
+}
+.marker-icon.intermediate img {
+    background-position: -24px -24px;
+}
+.marker-icon.shaping img {
+    background-position: -48px -24px;
+}
+.marker-icon.MapPushpinBase img {
+    margin: auto auto;
+}
+.marker-icon.placing img {
+    background-position-y: 0;
+}
+
+#drivingDirectionsContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    overflow: auto;
+}
+
+#choosePSSCoordinates .destination-info {
+    display: none;
+}
+#choosePSSCoordinates.choosingDestination .destination-info {
+    display: block;
+}
+#choosePSSCoordinates .shaping-info {
+    display: block;
+}
+#choosePSSCoordinates.choosingDestination .shaping-info {
+    display: none;
+}
